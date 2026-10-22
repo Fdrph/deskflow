@@ -43,6 +43,10 @@ static const KeyID s_decomposeTable[] = {
     0, // breve,        dead_breve,       space
     0x00af, 0x0304, 0x0020,
     0, // macron,       dead_macron,      space
+    0x0027, 0x0301, 0x0020,
+    0, // apostrophe,   dead_acute,       space
+    0x0022, 0x0308, 0x0020,
+    0, // quotedbl,     dead_diaeresis,   space
 
     // Latin-1 (ISO 8859-1)
     0x00c0, 0x0300, 0x0041,
